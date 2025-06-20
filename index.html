@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <button class="theme-switch" id="themeSwitch">
+        <i class="fas fa-sun"></i>
+    </button>
+    <div class="container">
+        <!-- Side Navbar -->
+        <nav class="side-nav">
+            <div class="menu-icon">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#home">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#reviews">
+                        <i class="fas fa-comments"></i>
+                        <span>Reviews</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#languages">
+                        <i class="fas fa-code"></i>
+                        <span>Languages</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#hire">
+                        <i class="fas fa-handshake"></i>
+                        <span>Hire Me</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Home Section -->
+            <section id="home">
+                <div class="intro">
+                    <h1>Hi, I'm <span class="highlight">Abdullah</span></h1>
+                    <p class="subtitle">Full Stack Developer</p>
+                    <p class="description">Passionate about creating beautiful and functional web applications. I love turning complex problems into simple, beautiful and intuitive solutions.</p>
+                </div>
+                <div class="profile-pic">
+                    <img src="images/image2.webp" alt="Profile Picture">
+                </div>
+                <div class="typing-container">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </section>
+
+            <!-- Reviews Section -->
+            <section id="reviews">
+                <h2>Client Reviews</h2>
+                <div class="card-grid">
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p>"Exceptional work! The website exceeded our expectations with its modern design and smooth functionality."</p>
+                        <div class="reviewer">- Sarah Johnson</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p>"Professional and efficient. The team delivered our project on time with great attention to detail."</p>
+                        <div class="reviewer">- Michael Chen</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p>"Innovative solutions and excellent communication throughout the development process."</p>
+                        <div class="reviewer">- Emily Rodriguez</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p>"The UI/UX design was outstanding. Our users love the intuitive interface and smooth navigation."</p>
+                        <div class="reviewer">- David Wilson</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p>"Reliable and skilled developer. Always available to help and implement changes quickly."</p>
+                        <div class="reviewer">- Lisa Thompson</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p>"Great attention to detail and creative problem-solving. Would definitely work with again!"</p>
+                        <div class="reviewer">- James Anderson</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects">
+                <h2>My Projects</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-globe"></i></div>
+                        <h3>Portfolio Website</h3>
+                        <p>A modern, responsive personal portfolio to showcase my work and skills.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-store"></i></div>
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-featured online store with payment integration and admin dashboard.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Analytics Dashboard</h3>
+                        <p>Interactive dashboard for data visualization and business insights.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-palette"></i></div>
+                        <h3>UI/UX Design System</h3>
+                        <p>Reusable design components and style guide for fast prototyping.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h3>Mobile App Landing</h3>
+                        <p>Landing page for a mobile app with smooth animations and CTA.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-blog"></i></div>
+                        <h3>Blog Platform</h3>
+                        <p>Multi-user blog with markdown support and real-time comments.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Languages Section -->
+            <section id="languages">
+                <h2>Languages & Skills</h2>
+                <div class="card-grid languages-grid">
+                    <div class="card">
+                        <div class="card-icon"><i class="fab fa-html5"></i></div>
+                        <h3>HTML5</h3>
+                        <p>Modern, semantic markup with accessibility best practices.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fab fa-css3-alt"></i></div>
+                        <h3>CSS3</h3>
+                        <p>Advanced styling with animations and responsive design.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fab fa-js-square"></i></div>
+                        <h3>JavaScript</h3>
+                        <p>Modern ES6+ with async/await and DOM manipulation.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fab fa-react"></i></div>
+                        <h3>React</h3>
+                        <p>Building scalable apps with hooks and context API.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fab fa-node-js"></i></div>
+                        <h3>Node.js</h3>
+                        <p>Server-side JavaScript with Express and MongoDB.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fab fa-python"></i></div>
+                        <h3>Python</h3>
+                        <p>Backend development and data science applications.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fab fa-git-alt"></i></div>
+                        <h3>Git & GitHub</h3>
+                        <p>Version control and collaborative development.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fab fa-figma"></i></div>
+                        <h3>Figma</h3>
+                        <p>UI/UX design and interactive prototyping.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-database"></i></div>
+                        <h3>SQL</h3>
+                        <p>Database design and management with MySQL.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hire Me Section -->
+            <section id="hire">
+                <h2>Hire Me</h2>
+                <div class="hire-content">
+                    <div class="hire-info">
+                        <h3>Let's Work Together</h3>
+                        <p>I'm currently available for freelance projects and full-time opportunities. Feel free to reach out if you need:</p>
+                        <ul class="contact-info">
+                            <li><i class="fas fa-laptop-code"></i>Custom Web Development</li>
+                            <li><i class="fas fa-mobile-alt"></i>Responsive Design</li>
+                            <li><i class="fas fa-database"></i>Backend Development</li>
+                            <li><i class="fas fa-paint-brush"></i>UI/UX Design</li>
+                        </ul>
+                        
+                        <div class="availability">
+                            <h4>Current Availability</h4>
+                            <p><i class="fas fa-clock"></i> Response Time: Within 24 hours</p>
+                            <p><i class="fas fa-calendar-check"></i> Project Start: Within 1-2 weeks</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Location: Remote / Worldwide</p>
+                        </div>
+                    </div>
+
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Project Type</label>
+                            <input type="text" id="subject" name="subject" placeholder="What type of project do you have?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell me about your project requirements, timeline, and budget" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
